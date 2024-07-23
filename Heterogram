@@ -1,0 +1,31 @@
+import java.util.*;
+public class Heterogram {
+    public static void main(String[] args) {
+        String s="The Big Drawf Only Jumps";
+        char c='A';
+        s=s.toUpperCase();
+        HashSet<Character> hs=new HashSet<>();
+        for(int i=0;i<s.length();i++)
+        {
+            if(Character.isLetter(s.charAt(i))){
+                if(s.charAt(i)==import java.util.*;
+                class VectorExample{
+                    public static void main(String[] args){
+                        Integer[] a=new Integer[]{10,20,10,10,30,10,40,10,50};
+                        ArrayList<Integer> al=new ArrayList<>(Arrays.asList(a));
+                        for(int i=0;i<al.size();i++) {
+                            for(int j=i+1;j<al.size();j++){
+                                if(al.get(i)==al.get(j)){
+                                    al.remove(j);
+                                }
+                            }
+                            System.out.println(al);
+                        }
+                    }
+                }
+)
+                hs.add(s.charAt(i));
+        }
+
+    }
+}
