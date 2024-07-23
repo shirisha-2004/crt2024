@@ -1,0 +1,16 @@
+import java.util.*;
+class Occurances{
+ public static void main(String[] args){
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  Integer[] a=new Integer[]{10,20,10,10,30,10,40,10,50};
+  ArrayList<Integer> al=new ArrayList<>(Arrays.asList(a));
+  for(int i=0;i<al.size();i++) {
+   if(al.get(i)==10){
+    al.remove(i);
+    i--;
+   }
+   System.out.println(al);
+   }
+  }
+} 
